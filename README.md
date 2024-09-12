@@ -1,10 +1,11 @@
  # <img src="https://github.com/user-attachments/assets/e91942a7-1180-49b4-a1df-59f26ff382d0" alt="logo" width="35" height="35"> FullStack Inventory Management Dashboard 
-![Screenshot (271)](https://github.com/user-attachments/assets/bc717ab9-e362-416e-a536-82e189cce024)
+![Screenshot (277)](https://github.com/user-attachments/assets/059e602b-a2c9-4ce7-ab39-d7d6575ab970)
 A comprehensive Inventory Management Dashboard that provides businesses with a consolidated overview of key metrics and sales performance, enabling a quick and insightful glance at overall business operations.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/rahu1-ku/foot-vault)
 ![NPM Version](https://img.shields.io/npm/v/next)
 ![GitHub top language](https://img.shields.io/github/languages/top/rahu1-ku/foot-vault)
+
 
 ## Features
 
@@ -97,11 +98,14 @@ This project leverages a structured set of JSON files to manage and store data p
 
 We utilize Prisma, PostgreSQL, pgAdmin4, and TypeScript to handle the compilation, storage, and seeding of this data into the web application. Prisma ORM serves as a bridge between our application and the database, enabling seamless data interactions, such as inserting, updating, and retrieving data, all directly from the website interface.
 
+![DB-1](https://github.com/user-attachments/assets/edb07eb5-f4e5-45b2-a575-0829bbfc336d)
+
 The data structure is defined using Prisma schema, ensuring consistency and ease of access to manipulate data across the system. Here's an example of how product data is modeled within the schema:
 
 ```js
 model Products {
   productId     String      @id
+
   name          String
   price         Float
   rating        Float?
@@ -115,9 +119,13 @@ This model defines products with fields such as productId, name, price, and stoc
 
 By organizing the data with Prisma schema, we ensure that the JSON files are integrated efficiently, allowing for dynamic updates and modifications to be reflected in real-time within the database. This setup guarantees that both product and company-related data are consistently managed, scalable, and easy to maintain throughout the lifecycle of the project.
 ## Previews
-![Screenshot (269)](https://github.com/user-attachments/assets/b159bbd9-3965-433d-a019-825a62ca7205)
-![Screenshot (275)](https://github.com/user-attachments/assets/d723d99f-fe98-4880-8e9a-e9831d876039)
-![Screenshot (273)](https://github.com/user-attachments/assets/663b74e0-40cb-4df0-983a-cc47ed6baa9a)
-![Screenshot (272)](https://github.com/user-attachments/assets/04ea5049-65c9-4d8f-8d3b-1eab20814304)
-![Screenshot (274)](https://github.com/user-attachments/assets/a39c2b68-fea7-4d50-89dc-fb64f2f2b409)
+
+![Screenshot (284)](https://github.com/user-attachments/assets/3b8810f0-9979-4a30-8d3b-d60166da5257)
+![Screenshot (278)](https://github.com/user-attachments/assets/bf9574f8-c509-429e-afd4-9f80b9a9de05)
+![Screenshot (280)](https://github.com/user-attachments/assets/0b410819-6d7f-4dee-bfc1-5c321b8a8694)
+![Screenshot (281)](https://github.com/user-attachments/assets/274e343a-35be-41a8-81cc-1f97254a3a04)
+![Screenshot (283)](https://github.com/user-attachments/assets/5227740f-5518-495e-bb95-db6689613490)
+![Screenshot (282)](https://github.com/user-attachments/assets/db9c3271-4290-4f7f-86e1-bd81848d4a59)
+
+
 
