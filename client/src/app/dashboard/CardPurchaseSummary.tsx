@@ -68,8 +68,8 @@ const CardPurchaseSummary = () => {
               >
                 <defs>
                   <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#3182ce" stopOpacity={0.95}/>
-                    <stop offset="95%" stopColor="#3182ce" stopOpacity={0.35}/>
+                    <stop offset="5%" stopColor="#519DE9" stopOpacity={0.95}/>
+                    <stop offset="95%" stopColor="#519DE9" stopOpacity={0.35}/>
                   </linearGradient>
                 </defs>
                 <XAxis dataKey="date" tick={false} axisLine={false} />
